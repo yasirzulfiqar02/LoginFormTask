@@ -1,0 +1,76 @@
+
+<html lang="en">
+    <head>
+        <style>
+            .centerTableView {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+           input[type=text]
+            {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 10px 0;
+                box-sizing: border-box;
+                border: none;
+                background-color: #486468;
+                text-indent : 40;
+            }
+            form {
+                width: 300px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+            }
+            .button {
+                background-color: #ffffff; /* Green */
+                border: none;
+                color: black;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 18px;
+                font-colour:#0d1c21;
+                height: 44px;
+                border-radius: 22px;
+                margin-top: 25px;
+                font-weight: 700;
+            }
+            .userName {
+                margin-bottom: 25px;
+                text-align:center
+            }
+
+            .leftIcon {
+                margin-top: -56px; 
+                margin-left: -3px
+            }
+
+            .rightIcon {
+                margin-top: -56px; 
+                margin-left: 256px
+            }
+            
+        </style>
+    </head>
+    <body style="background-color:#092429">
+        <div class="centerTableView">
+            <form> 
+                <div class="userName">
+                    <label style="color: white; font-weight: 700; font-size: 20px;">USER LOGIN</label>
+                </div>
+                <input type="text" id="User name" name="User name" value="User name" style="font-size:1rem;  font-color: #153638;border-radius: 22px;">
+                <div class="leftIcon">
+                    <img src="userNameIcon.png" alt="Italian Trulli" width="50" height="50">
+                </div>
+                <input type="text" id="Passward" name="Passward" value="Passward"  style="font-size:1rem; font-color: #153638; border-radius: 22px;text-indent : 0;">
+                <div class="rightIcon">
+                    <img src="lockIcon.png" alt="Italian Trulli" width="50" height="50">
+                </div>
+                <button class="button">LOGIN</button>
+            </form>
+        </div>
+    </body>
+</html>
